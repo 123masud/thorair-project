@@ -1,0 +1,24 @@
+:host {
+  width: 100%;
+  @media (min-width: 992px) {
+    .login-form {
+      width: 100%;
+      max-width: 450px;
+
+      .mat-form-field {
+        width: 100%;
+      }
+    }
+  }
+}
+.form-control.form-control-solid {
+  background-color: #ffffff !important;
+  border-color: #ecebeb !important;
+}
+
+.submit-form-btn {
+  background: linear-gradient(90deg, #4628ba 32%, #0871ff 100%);
+}
+.hover-gmail:hover{
+  background-color: transparent !important; color: #4628ba !important;
+}

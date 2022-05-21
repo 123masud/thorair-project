@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/sass/style";
+
+// Replace above style with this SCSS file to enable dark mode styles
+//@import "./assets/sass/style.dark";
+
+@import "./assets/sass/style.angular.scss";
+
+.bg-war-block{
+    background-color: #fff3cd !important; border: solid 1px #f1e2ba;
+}
+
+.text-warning2{
+    color: #974d03;
+}
+
+.svg-icon-warning2{
+    color: #b24d03 !important;
+}
+
+.bg-light-primary2{
+    background-color: #cff4fc !important; border: solid 1px #acebf8; 
+}
+.text-primary2{
+    color: #055160 !important; 
+}
+.svg-icon-primary2{
+    color: #055160 !important; 
+}
+
+
+.bg-light-danger2{
+    background-color: #f8d7da !important; border: solid 1px #eeb6bb; 
+}
+.text-danger2{
+    color: #93205c !important; 
+}
+.svg-icon-danger2{
+    color: #93205c !important; 
+}
+
+.bg-light-success2{
+    background-color: #d1e7dd !important; border: solid 1px #acd3c1; 
+}
+.text-success2{
+    color: #0f5132 !important; 
+}
+.svg-icon-success2{
+    color: #0f5132 !important; 
+}
+.pr-10{
+    padding-right:8px !important;
+}
+.date-span{
+    width: 100%;
+    float: left;
+}
+.h1-top{
+    border-left: solid 1px #0b224a;
+    padding-left: 8px;
+}

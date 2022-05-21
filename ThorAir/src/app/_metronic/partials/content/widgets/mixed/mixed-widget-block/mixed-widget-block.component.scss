@@ -1,0 +1,70 @@
+.card-top{
+    display: block;
+}
+.transparent-mode .card {
+    background-color: #ffffff;
+    border: inherit !important;
+}
+.card-header .card-title {
+    color: #939393; margin-top: 40px;
+}
+.sub-title-b {
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn.btn-body {
+    background: linear-gradient(90deg,rgba(70, 40, 186, 1) 32%,rgba(8, 113, 255, 1) 100%);
+    border: 0px;
+    color: #fff;
+    padding: 3px 10px;
+}
+.flot-block-left {
+    width: 50%;
+    float: left; border: 0px;
+    padding-top: 12px; padding-bottom: 22px;
+}
+.flot-block-right {
+    width: 50%;
+    float: left;
+}
+.flot-block-right img{
+    width: 100%;margin-top: 22px;
+}
+.card-top{
+    display: block;
+    width: 100%;
+    background: #fff;
+    float: left;
+    box-shadow: 0 3px 20px #d5d2d2;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.block-right-dashboard {
+    width: 100%;
+    height:238px;
+    background: url(../../../../../../../assets/images/com.jpg) no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    color: #fff;
+    position: relative; box-shadow: 0 3px 20px #d5d2d2;
+}
+.block-right-dashboard:after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+}
+.content-inner {
+    width: 100%;
+    padding: 18px;
+    position: relative;
+    z-index: 9;
+}
+.content-inner h3{
+    color: #fff; margin-top: 72px;
+}
